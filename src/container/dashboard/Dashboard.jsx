@@ -31,7 +31,7 @@ class Dashboard extends Component {
 				<div className={this.state.showAnim ? "show-animation" : ""} onClick={e=>this.toggleSlideshowState(e)}>
 					<div className="slide-toggler">
 					<div className="pet-icon"> 
-						{this.state.isCatLover ? <img src={cat} alt="cat" /> : <img src={dog} alt="dog" />}
+						{this.state.isCatLover ?  <img src={dog} alt="dog" />: <img src={cat} alt="cat" />}
 					</div>
 					</div>
 					<div className="info-about-animal">
