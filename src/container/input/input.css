@@ -1,0 +1,20 @@
+
+.input-container {
+	width: 260px;
+}
+
+.input-bar {
+	min-width: 260px;
+	height: 34px;
+	margin-top: 10px;
+	margin-bottom: 5px;	
+	padding-left: 10px;
+	border: none;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}

@@ -1,0 +1,12 @@
+.app {
+	background-color: rgba(0,0,0,0.8);
+	min-height: 100vh;
+    height: 100%;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.main-container {
+	display: flex;
+    justify-content: center;
+}

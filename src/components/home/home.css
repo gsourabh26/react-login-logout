@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.author-photo {
+    width: 160px;
+    border-radius: 100%;
+    height: 160px;
+    justify-content: center;
+    border: 1px dashed rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+.name {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.contact-details {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+}
+
+.contact::before {
+    content: "";
+    width: 14px;
+    height: 18px;
+    position: absolute;
+    left: -20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.phone::before {
+	background-image: url('../../assets/phone.png');
+}
+
+.email::before {
+	background-image: url('../../assets/mail.png');
+}

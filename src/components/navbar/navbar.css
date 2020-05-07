@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: rgb(132, 133, 132);
+    height: 50px;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.navbar-container .userInfo {
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: rgba(255,255,255,0.7);
+}
+
+.navbar-container .userInfo::before {
+    content: "Welcome ";
+}
+
+.logo-container {
+	width: 32px;
+	
+}
+
+.logo-container img {
+	width: 100%;
+}
+
+
+.navlinks-container{
+	margin-left: auto;
+}
+
+.navlinks-container a{
+	text-decoration: none;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+    display: inline-block;
+    line-height: 48px;
+    border-bottom: 2px solid transparent;
+}
+
+.navlinks-container a:hover {
+    border-bottom: 2px solid rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.7);
+}
+
+.navlinks-container a.active{
+	border-bottom: 2px solid white;
+}

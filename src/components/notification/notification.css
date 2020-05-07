@@ -1,0 +1,51 @@
+.notification-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 3px;
+    color: rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 2px 0px;
+    z-index: 1000;
+}
+
+.notification-message-container {
+    min-width: 200px;
+    max-width: 500px;
+    max-height: 50px;
+    overflow: scroll;
+}
+
+.notification-message {
+    font-size: 14px;
+}
+
+.notification-close {
+    min-width: 24px;
+    min-height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.notification-close .cross-svg {
+	fill: rgba(255,255,255,0.7);
+}
+
+.notification-container.success {
+	background-color: #28a745;
+}
+
+.notification-container.error {
+	background-color: #dc3545;
+}
+
+.notification-container.warning {
+	background-color: #ffc107;
+}
+
+.notification-container.info {
+	background-color: #17a2b8;
+}
